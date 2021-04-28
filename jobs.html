@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/scss/style.css">
+  <title>Jobs | Juan's Auto Paint</title>
+</head>
+<body>
+  <header class="site__header flex flex-fd-col flex-ai-c">
+    <h1 class="site__title">Juan's Auto Paint</h1>
+    <nav class="site__nav">
+      <ul class="site__nav-list flex">
+        <li class="site__nav-item">
+          <a href="./new.html" class="site__nav-link">new paint job</a>
+        </li>
+        <li class="site__nav-item">
+          <a href="./jobs.html" class="site__nav-link site__nav-link--selected">paint jobs</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="site__main flex flex-fd-col">
+    <h2 class="site__main-title">Paint Jobs</h2>
+    <section class="site__wip">
+      <table class="site__wip-table">
+        <caption>paint jobs in progress</caption>
+        <tr>
+          <th>plate no.</th>
+          <th>current color</th>
+          <th>target color</th>
+          <th>action</th>
+        </tr>
+        <tr>
+          <td>xsa 723</td>
+          <td>blue</td>
+          <td>green</td>
+          <td>
+            <a href="#_">Mark as Completed</a>
+          </td>
+        </tr>
+      </table>
+    </section>
+
+    <section class="site__queue">
+      <table class="site__queue-table">
+        <caption>paint queue</caption>
+        <tr>
+          <th>plate no.</th>
+          <th>current color</th>
+          <th>target color</th>
+        </tr>
+        <tr>
+          <td>xsa 723</td>
+          <td>blue</td>
+          <td>green</td>
+        </tr>
+      </table>
+    </section>
+
+    <section class="site__performance">
+      <table class="site__performance-table">
+        <tr>
+          <th colspan="2">shop performance</th>
+        </tr>
+        <tr>
+          <td>total cars painted:</td>
+          <td>48</td>
+        </tr>
+        <tr>
+          <td colspan="2">breakdown:</td>
+          <td>
+            <table>
+              <tr>
+                <td>blue</td>
+                <td>24</td>
+              </tr>
+              <tr>
+                <td>red</td>
+                <td>21</td>
+              </tr>
+              <tr>
+                <td>green</td>
+                <td>3</td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </section>
+  </main>
+
+</body>
+</html>

@@ -1,0 +1,15 @@
+.site {
+  &__header {
+    background-color: #eeeeee;
+  }
+
+  &__nav {
+    background-color: #ea6a5b;
+    width: 100%;
+
+    &-list {
+      column-gap: 35px;
+      margin-left: 15px;
+    }
+  }
+}

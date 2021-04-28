@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/scss/style.css">
+  <title>New | Juan's Auto Paint</title>
+</head>
+<body>
+  <header class="site__header flex flex-fd-col flex-ai-c">
+    <h1 class="site__title">Juan's Auto Paint</h1>
+    <nav class="site__nav">
+      <ul class="site__nav-list flex">
+        <li class="site__nav-item">
+          <a href="./new.html" class="site__nav-link site__nav-link--selected">new paint job</a>
+        </li>
+        <li class="site__nav-item">
+          <a href="./jobs.html" class="site__nav-link">paint jobs</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="site__main flex flex-fd-col flex-ai-c">
+    <h2 class="site__main-title">New Paint Job</h2>
+    <div class="site__illustration flex">
+      <div class="site__illustration-car">
+        <img src="./assets/images/Default Car.svg" alt="illustration of the current car">
+      </div>
+      <div class="site__illustration-arrow">
+        <img src="./assets/images/Arrow.svg" alt="image of an arrow pointing to the right">
+      </div>
+      <div class="site__illustration-car">
+        <img src="./assets/images/Default Car.svg" alt="illustration of the target car">
+      </div>
+    </div>
+    <form method="GET" action="" class="form">
+      <h3>car details</h3>
+      <label for="plateNumber">plate no.</label>
+      <input id="plateNumber" type="text" required>
+
+      <label for="currentColor">current color</label>
+      <select name="currentColor" id="currentColor">
+        <option value="red">red</option>
+        <option value="green">green</option>
+        <option value="blue">blue</option>
+      </select>
+
+      <label for="targetColor">target color</label>
+      <select name="targetColor" id="targetColor">
+        <option value="red">red</option>
+        <option value="green">green</option>
+        <option value="blue">blue</option>
+      </select>
+
+      <button type="submit">submit</button>
+    </form>
+  </main>
+</body>
+</html>

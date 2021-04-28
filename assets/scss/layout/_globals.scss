@@ -1,0 +1,25 @@
+body {
+  padding-top: 40px;
+}
+
+header,
+main {
+  margin: auto;
+  width: 800px;
+}
+
+.flex {
+  display: flex;
+
+  &-fd-col {
+    flex-direction: column;
+  }
+
+  &-ai-c {
+    align-items: center;
+  }
+}
+
+img {
+  // outline: 1px solid lightblue;
+}
